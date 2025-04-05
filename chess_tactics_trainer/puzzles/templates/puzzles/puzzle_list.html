@@ -1,0 +1,8 @@
+<h1>Puzzle List</h1>
+<ul>
+    {% for puzzle in puzzles %}
+        <li>{{ puzzle.difficulty_level }} - {{ puzzle.chess_position }}</li>
+    {% endfor %}
+</ul>
+
+
